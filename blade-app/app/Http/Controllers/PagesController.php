@@ -14,6 +14,11 @@ class PagesController extends Controller
     {
         return  view ("form");
     }
+    public function footer()
+    {
+        return  view ("footer");
+    }
+    
 }
  
 

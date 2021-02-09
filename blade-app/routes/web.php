@@ -14,13 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-/* Route::get('/', function () {//
-    return view('layouts/main');
-}); */
-
-/* Route::get('/form', function () {
-    return view('form');
-}); */
 
 route::get('/', 'App\Http\Controllers\PagesController@index');
 route::get('/form', 'App\Http\Controllers\PagesController@form');
+
+
