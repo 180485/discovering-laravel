@@ -3,8 +3,7 @@
 namespace App\Http\Controllers;
   
 use Illuminate\Http\Request;
-use App\Post;
-  
+use App\Models\Post;
 class PostController extends Controller
 {
     /**
@@ -26,11 +25,11 @@ class PostController extends Controller
     {
         $request->validate([
            'username' => 'required',
+           'password' => 'required|min:5',
+           'email' => 'required'
            
         ]);
    
-        Post::create($request);
-    
         return view('form');
     }
 }
