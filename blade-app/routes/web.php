@@ -19,3 +19,6 @@ route::get('/', 'App\Http\Controllers\PagesController@index');
 route::get('/form', 'App\Http\Controllers\PagesController@form');
 
 
+
+route::post('/form', 'App\Http\Controllers\PostController@store');
+route::get('/post', 'App\Http\Controllers\PostController@create');
