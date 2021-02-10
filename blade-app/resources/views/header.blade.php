@@ -10,7 +10,7 @@
                       <a class="nav-link" href="/index">Home </a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="/form">Register</a>
+                      <a class="nav-link" href="/form">Login</a>
                   </li>
                   <li class="nav-item">
                       <a class="nav-link" href="contactus2.html">contact Us</a>
