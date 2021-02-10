@@ -30,6 +30,6 @@ class PostController extends Controller
            
         ]);
    
-        return view('form');
+        return redirect()->back()->with('message', 'HEY WELCOME TO LARAVEL!');
     }
 }
