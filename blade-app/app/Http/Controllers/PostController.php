@@ -16,11 +16,7 @@ class PostController extends Controller
         return view('create_post');
     }
   
-    /**
-     * Show the application dashboard.
-     *
-     * @return \Illuminate\Http\Response
-     */
+   
     public function store(Request $request)
     {
         $request->validate([

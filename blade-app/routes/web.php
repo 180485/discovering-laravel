@@ -13,12 +13,19 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
-
+//exercise 2 blade view pages
 route::get('/', 'App\Http\Controllers\PagesController@index');
 route::get('/form', 'App\Http\Controllers\PagesController@form');
+route::get('/index', 'App\Http\Controllers\PagesController@index');
+route::get('/contact', 'App\Http\Controllers\PagesController@contact');
+route::get('/contact', 'App\Http\Controllers\CreatePostController@index');
+route::get('/index', 'App\Http\Controllers\PagesController@image');
+route::get('/', 'App\Http\Controllers\PagesController@image');
 
 
-
+//exercise 2 validation form
 route::post('/form', 'App\Http\Controllers\PostController@store');
 route::get('/post', 'App\Http\Controllers\PostController@create');
+
+
+//exercise 3

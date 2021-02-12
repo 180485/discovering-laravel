@@ -18,7 +18,14 @@ class PagesController extends Controller
     {
         return  view ("footer");
     }
-    
+    public function contact()
+    {
+        return  view ("contact");
+    }
+    public function image()
+    {
+        return  view ("image");
+    }
 }
  
 
